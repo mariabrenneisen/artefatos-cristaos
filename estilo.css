@@ -6,6 +6,13 @@ body{
     justify-content: center;
 }
 
+.form_pesquisa
+{
+    border-radius: 20px !important;
+    background-color: #3D5AF1 !important;
+    border-color: #3D5AF1 !important; 
+}
+
 .ajuda
 {
     background-color: #0E153A!important;
@@ -15,4 +22,11 @@ body{
 {
     background-color: #3D5AF1!important;
     color: white !important;
+}
+.texto_resenha
+{
+    padding: 5px !important;
+    border-radius: 10px !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+     
 }
