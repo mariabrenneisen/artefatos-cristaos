@@ -5,37 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <title>Resenhas</title>
 
-    <div class="azulescuro">
-        <div id="texto-azulescuro">Precisa de Ajuda?</div>
- </div>
-    <div class="azul">
-        <img src="img/logobranca.png" class="logo"> <div class="texto_entrar">Artefatos Cristãos</div>
-    </div>
+    <header class="header mx-auto text-light" style="background-color: #0E153A">
+            <ul class="header nav">
+                <li class="nav-item active">
+                    <a class="nav-link ajuda" href="Ajuda.html">Precisa de Ajuda</a>
+                </li>
+            </ul>
+    </header>
+    
+        <nav class="navbar" style="background-color: #3D5AF1">
+            <div class="container-fluid">
+                <div class="row">
+                        <div class="col-md-4 col-xs-12">
+                                <a class="navbar-brand text-light">
+                                        <img src="img/LogoBranca.png" alt="Logo" width="50" height="46" class="d-inline-block align-text-center">
+                                        Artefatos Cristãos
+                                </a>
+                        </div>
+                        <div class="col-md-5 col-xs-12" style="background-color: #3D5AF1">
+                                <form class="form-control col-md-6 col-xs-12" role="text">
+                                    <input class="form-control me-2" type="text" placeholder="O que você está procurando?" aria-label="O que você está procurando">
+                                </form>
+                        </div>
+    
+                        <div class="col-md-4 col-xs-12">
+                                <a class="nav-link active d-inline-block align-text-center" aria-current="page" href="Resenhas.html" >
+                                        <img src="img/livro.png" width="46" height="46">
+                                        Cabeceira
+                                </a>
+                        </div>
+                        <div class="col-md-4 col-xs-12">
+                                <a class="nav-link active d-inline-block align-text-center" aria-current="page" href="entrar.html">
+                                        <img src="img/perfil.png" width="46" height="46">
+                                        Entrar
+                                    </a>
+                        </div>
+                        <div class="col-md-4 col-xs-12">
+                                <a class="nav-link active d-inline-block align-text-center" href="#" aria-current="page" href=".html">
+                                        <img src="img/carrinho.png" width="46" height="46">
+                                </a>
+                        </div>
+                </div>
+              
+            </div>
+        </nav>
 
-    <div class="branco">
-        <div class="categorias">Todas as Categorias</div> 
-        <div class="ofertas">Ofertas</div>
-        <div class="lojas">Lojas Parceiras</div>  
-    </div>
+        <div class="container-fluid">
+                <br>
+                <h1 class="h1 text-dark ">Escreva aqui a sua resenha dos nossos livros comprados por você:</h1>
+                <br>
+                <form>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-6 col-xs-12">
+                                    <label>Nome do Livro:</label>
+                                    <input class="form-control" type="text">
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                                    <label>Autor:</label>
+                                    <input class="form-control" type="text">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="mb-3 col-xs-12">
+                                <label for="textoresenha" class="form-label">Resenha</label>
+                                <textarea class="form-control" id="textoresenha" rows="8"></textarea>
+                        </div>
+                        <div class="row justify-content-center align-itens-center">
+                                <div class="col-md-auto">
+                                        <button class="btn btn-dark botao_resenha"  type="submit" style="width: 150px">Salvar</button>
+                                </div>
+                        </div>
+                </form>
 
-    <hr class="linha">
-    <div class="retangulo_resenhas">
-        <div class="texto1_resenhas">
-            Escreva aqui a sua resenha dos nossos livros comprados por você:
-        <div class="texto2_resenhas"></div>Nome do livro:<input class="input1_resenhas" type="text">
-        <div class="texto3_resenhas"></div>Autor:<input class="input2_resenhas" type="text">
-        <div class="texto4_resenhas"></div>Resenha:<input class="input3_resenhas" type="text">
 
-        <button class="botao_resenhas" onclick="Login();">
-            Enviar
-        </button>
-
-        <button class="botao_resenhas" onclick="Login();">
-            Excluir
-        </button>
-</head>
 <body>
     
 </body>
