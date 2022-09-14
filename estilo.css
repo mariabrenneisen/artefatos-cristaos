@@ -29,10 +29,36 @@ body{
     background-color: #3D5AF1!important;
     color: white !important;
 }
+.botao
+{
+    background-color: #3D5AF1!important;
+    color: white !important;
+}
 .texto_resenha
 {
     padding: 5px !important;
     border-radius: 10px !important;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
      
+}
+.texto_entrar
+{
+    padding: 5px !important;
+    border-radius: 10px !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    color: black!important;
+     
+}
+.azul{
+    
+    width: 750px;
+    height: 500px;
+    background-color: #7098DA!important;
+}
+.linha{
+    display: flex;
+    width: 150px;
+    background-color: black;
+    border-width: 2px;
+    border-color: black;
 }
