@@ -5,24 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="estilo.css"> 
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <title>Entrar</title>
 </head>
 <body>
 
-<div class="azulescuro">
-       <div id="texto-azulescuro">Precisa de Ajuda?</div>
-</div>
-   <div class="azul">
-       <img src="logobranca.png" class="logo"> <div class="texto_entrar">Artefatos Cristãos</div>
-   </div>
-    
-   <div class="retangulo_entrar">
-       <div class="texto1_entrar">
-           Já sou cliente
-       <div class="texto2_entrar"></div>Email:<input class="input1_entrar" type="text">
-       <div class="texto3_entrar"></div>Senha:<input class="input2_entrar" type="text">
-       <button class="botao_entrar" onclick="Login();">
-            Entrar
-        </button>
+        <nav class="navbar" style="background-color: #3D5AF1">
+                <div class="container-fluid">
+                    <div class="row">
+                            <div class="col-md-4 col-xs-12">
+                                    <a class="navbar-brand text-light">
+                                            <img src="img/LogoBranca.png" alt="Logo" width="50" height="46" class="d-inline-block align-text-center">
+                                            Artefatos Cristãos
+                                    </a>
+                    </div>
+                  
+                </div>
+        </nav>
+
+        <div class="container-fluid">
+            <div class="azul">
+                <h1 class="h1 text-light texto_entrar">Já sou cliente:</h1>
+                <hr class="linha">
+                <br>
+                <form>
+                    <div class="form-group">
+                        <form>
+                            <div class="row mb-3">
+                              <label for="email" class="form-label">Email:</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <div id="emailHelp" class="form-text">Nunca compartilharemos seu e-mail com mais ninguém.</div>
+                            </div>
+                            <div class="row mb-3">
+                              <label for="senha" class="form-label">Senha:</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="row mb-3 form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1">Mostre minha senha</label>
+                            </div>
+                            <div class="row justify-content-center align-itens-center">
+                                <div class="col-md-auto">
+                                    <button class="btn btn-dark botao"  type="submit" style="width: 150px">Salvar</button>
+                            </div>
+                        </form>
+                    </div>
+                </form>
+            </div> 
+        </div>
+
 </body>
 </html>
