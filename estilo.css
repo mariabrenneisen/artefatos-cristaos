@@ -62,3 +62,13 @@ body{
     border-width: 2px;
     border-color: black;
 }
+.pesquisa
+{
+    width: 600px !important;
+    margin-top: 4px !important;
+
+}
+.categorias_home
+{
+    margin-top: 10px !important;
+}
