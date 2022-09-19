@@ -83,3 +83,12 @@ body{
 .borda_ok{
     border-color: #3D5AF1 !important; 
 }
+.circulo{
+    width: 120px !important;
+    height: 120px !important;
+    color: white !important;
+    background-color: #3D5AF1 !important;
+    border-color: #0E153A !important;
+    border-width: 50% !important; 
+    font-family: 'Italianno';font-size: 22px !important;
+}
