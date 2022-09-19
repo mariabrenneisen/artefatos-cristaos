@@ -5,42 +5,122 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <title>Cadastro de Livros</title>
 
-    <div class="azulescuro">
-        <div id="texto-azulescuro">Precisa de Ajuda?</div>
- </div>
-    <div class="azul">
-        <img src="img/logobranca.png" class="logo"> <div class="texto_entrar">Artefatos Cristãos</div>
-    </div>
-
-    <div class="branco">
-        <div class="categorias">Todas as Categorias</div> 
-        <div class="ofertas">Ofertas</div>
-        <div class="lojas">Lojas Parceiras</div>  
-    </div>
-
-    <hr class="linha">
-    <div class="retangulo_cadastro_livros">
-        <div class="texto1__cadastro_livros">
-            Escreva aqui o cadastro dos livros que você quer adicionar na sua loja:
-        <div class="texto2_cadastro_livros"></div>Nome do Produto:     <input class="input1_cadastro_livros" type="text">
-        <div class="texto3_cadastro_livros"></div>Código:              <input class="input2_cadastro_livros" type="text">
-        <div class="texto4_cadastro_livros"></div>Valor:               <input class="input3_cadastro_livros" type="text">
-        <div class="texto5_cadastro_livros"></div>Autor:               <input class="input4_cadastro_livros" type="text">
-        <div class="texto6_cadastro_livros"></div>Editora:             <input class="input5_cadastro_livros" type="text">
-        <div class="texto7_cadastro_livros"></div>Ano de Lançamento:   <input class="input6_cadastro_livros" type="text">
-        <div class="texto8_cadastro_livros"></div>Faixa Etária:        <input class="input7_cadastro_livros" type="text">
-
-        <button class="botao_cadastro_livros" onclick="Login();">
-            Cadastrar
-        </button>
-
-        <button class="botao_cadastro_livros" onclick="Login();">
-            Excluir
-        </button>
-</head>
 <body>
+        <header class="header mx-auto text-light" style="background-color: #0E153A">
+                <ul class="header nav justify-content-end">
+                    <li class="nav-item active">
+                        <a class="nav-link ajuda" href="Ajuda.html">Precisa de Ajuda</a>
+                    </li>
+                </ul>
+            </header>
+        
+            <ul class="nav" style="background-color: #3D5AF1">
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="#">
+                        <img src="img/LogoBranca.png" alt="Logo" width="50" height="46" class="d-inline-block align-text-center">  
+                        Artefatos Cristãos
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light">
+                        <input class="form-control pesquisa" type="text" placeholder="O que você está procurando?" aria-label="O que você está procurando">
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="cabeceira.html">
+                        <img src="img/livro.png" width="46" height="46">
+                        Cabeceira
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="entrar.html">
+                          <img src="img/perfil.png" width="46" height="46">
+                          Entrar
+                 </a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link text-light" href="carrinho.html">
+                                <img src="img/carrinho.png" width="46" height="46">     
+                        </a>
+                </li>
+              </ul>
+        
     
+           
+            <div class="row">
+                    <div class="row categorias_home">
+                            <div class="col-md-1 col-xs-6">
+                                    <a class="nav-link active text-dark align-text-center link fs-6" href="categorias.html">Categorias</a>
+                            </div>
+                            <div class="col-md-1 col-xs-6">
+                                    <a class="div-link align-text-center link fs-6" href="categorias.html">Livros</a>
+                            </div>
+                            <div class="col-md-1 col-xs-6">
+                                    <a class="div-link align-text-center link fs-6" href="categorias.html">Outlet</a>
+                            </div>
+                        </div>
+        
+            </div>
+            
+            <hr class="linha">
+    
+    
+            <div class="container-fluid">
+                    <br>
+                    <h1 class="h1 text-light texto_resenha text-align-center" style="background-color: #3D5AF1">Escreva aqui o cadastro dos livros que você quer adicionar na sua loja:</h1>
+                    <form>
+                        <div class="form-group formulario_cadastro_itens">
+                            <div class="row">
+                                <div class="col-md-6 col-xs-12">
+                                        <label>Nome do Produto:</label>
+                                        <input class="form-control" type="text">
+                                </div>
+                                <div class="col-md-6 col-xs-12">
+                                        <label>Código:</label>
+                                        <input class="form-control" type="text">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-xs-12">
+                                        <label>Valor:</label>
+                                        <input class="form-control" type="text">
+                                </div>
+                                <div class="col-md-6 col-xs-12">
+                                        <label>Autor:</label>
+                                        <input class="form-control" type="text">
+                                </div>
+                            </div>
+                            <div class="row">
+                                    <div class="col-md-6 col-xs-12">
+                                            <label>Editora:</label>
+                                            <input class="form-control" type="text">
+                                    </div>
+                                    <div class="col-md-6 col-xs-12">
+                                            <label>Ano de Lançamento:</label>
+                                            <input class="form-control" type="date">
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center align-itens-center">
+                                    <div class="col-md-6 col-xs-12">
+                                            <label>Faixa Etária:</label>
+                                            <input class="form-control" type="text">
+                                    </div>
+                                    <div class="col-md-6 col-xs-12">
+                                            <label>Quantidade em Estoque:</label>
+                                            <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                            <br>
+                            <div class="row justify-content-center align-itens-center">
+                                    <div class="col-md-auto">
+                                            <button class="btn btn-dark botao_resenha"  type="submit" style="width: 150px">Salvar</button>
+                                    </div>
+                            </div>
+                    </form>
+            </div>
 </body>
 </html>
