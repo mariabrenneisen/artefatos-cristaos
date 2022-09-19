@@ -79,3 +79,7 @@ body{
     font-family: 'Italianno';font-size: 22px !important;
     font-size: 40px !important;
 }
+
+.borda_ok{
+    border-color: #3D5AF1 !important; 
+}

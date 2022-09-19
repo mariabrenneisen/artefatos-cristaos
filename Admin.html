@@ -5,31 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="estilo.css">
+    <link href='https://fonts.googleapis.com/css?family=Italianno' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <title>Admin</title>
 
-    <div class="azulescuro">
-        <div id="texto-azulescuro">Precisa de Ajuda?</div>
- </div>
-    <div class="azul">
-        <img src="img/logobranca.png" class="logo"> <div class="texto_entrar">Artefatos Cristãos</div>
-    </div>
 
-    <div class="branco">
-        <div class="admin">Bem vindo Administrador!</div> 
-    </div>
+    <nav class="navbar" style="background-color: #3D5AF1">
+            <div class="container-fluid">
+              <a class="navbar-brand text-light fonte_artefatos" href="#">
+                    <img src="img/LogoBranca.png" alt="Logo" width="50" height="46" class="d-inline-block align-text-center">  
+                    Artefatos Cristãos
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Artefatos Cristãos</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body menu_flexivel text-light">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#">Loja</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Produtos Lançado</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#">Interações</a>
+                          </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Lista de Clientes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gerenciar Cupons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Combos de Vendas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Relatório Mensal</a>
+                    </li>
+                </ul>
+                <br>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                    <button class="btn btn-outline-light borda_ok text-dark" type="submit">Ok</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
 
-    <hr class="linha">
+    <div class="container-fluid">
+            <div class="row categorias_home">
+                <div class="col-md-6 col-xs-6">
+                        <a class="nav-link active text-dark align-text-center link fs-4">Bem vindo Administrador!</a>
+                </div>
+            </div>
+</div>    
+<hr class="linha">
 
-    <div class="itens_admin">
-        <div class="admin_filtro">Loja</div>
-        <div class="admin_filtro">Produtos Lançados</div>
-        <div class="admin_filtro">Interações</div>
-        <div class="admin_filtro">Lista de Clientes</div>
-        <div class="admin_filtro">Formas de Pagamento</div>     
-        <div class="admin_filtro">Gerenciar Cupons</div>
-        <div class="admin_filtro">Combos de Vendas</div> 
-        <div class="admin_filtro">Relatório Mensal</div>
-    </div>
 
     <div class="cadastro_produtos_admin">
         <div class="texto1_cadastro_produtos_admin">Cadastre seus Produtos</div>
