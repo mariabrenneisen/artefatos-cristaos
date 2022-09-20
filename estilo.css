@@ -157,3 +157,14 @@ body{
     margin-right: 7px !important;
     width: 240px !important;
 }
+
+.branco
+{
+    display: flex !important;
+    flex-direction: row !important; 
+}
+
+.figuras
+{
+    margin: 20px;
+}
