@@ -132,6 +132,11 @@ body{
     border-radius: 15px !important; 
     margin-left: 15px !important; 
 }
+.titulo_filtro
+{
+    margin-top: 7px !important;
+    margin-bottom: 12px !important; 
+}
 
 .caixas_filtro
 {
