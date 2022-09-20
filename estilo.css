@@ -163,8 +163,14 @@ body{
     display: flex !important;
     flex-direction: row !important; 
 }
+.imagens_conteudo
+{
+    display: flex !important;
+    flex-direction: row !important; 
+}
 
 .figuras
 {
-    margin: 20px;
+    margin: 20px !important;
+    flex-direction: row !important
 }
