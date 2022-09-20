@@ -92,22 +92,33 @@ body{
 .circulo{ 
     font-family: 'Italianno';font-size: 60px !important;
 }
+ 
 
-.tabela{
-    margin-top: 40px !important; 
-    margin-left: 100px !important; 
-    border-color:black !important;  
-}
 .formulario_cadastro_itens
 {
     margin-top: 20px !important; 
 }
-.cadastro_produtos_admin{
-   border
-
+.cadastro_produtos_admin
+{
+    width: 70%;
+    margin-top: 10px !important;
+    margin-left: 100px !important;
+    border-width: 3px !important;
+    background-color: #7099da20 !important;
+    padding: 10px !important;
 }
-.tabela{
-    background-color: #7098DA !important; 
-    width: 1200px;
 
+.links_adm
+{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.botao_adm
+{
+    margin-left: 820px !important ;
+    margin-top: 50px !important;
+    margin-top: 20px !important;
+    background-color: #7098DA !important;
+    color: white !important;
 }
