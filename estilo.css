@@ -234,3 +234,22 @@ body{
     text-decoration: none !important;
     color: #0E153A !important;
 }
+.legenda
+{
+    color: black !important;
+}
+.valor_biblia
+{
+    color: #3D5AF1 !important; 
+}
+.caixa_imagens
+{
+    background-color: rgb(241, 241, 241) !important;
+    box-shadow: #3D5AF1 !important; 
+    border-radius: 20px !important; 
+    padding: 10px !important;
+    -webkit-box-shadow: -5px 5px 5px rgb(182, 182, 182);
+	-moz-box-shadow:    -5px 5px 5px rgb(182, 182, 182);
+	box-shadow:        -5px 5px 5px rgb(182, 182, 182);
+    
+}
