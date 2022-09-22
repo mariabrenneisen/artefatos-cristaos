@@ -17,6 +17,7 @@ body{
 {
     background-color: #0E153A!important;
     color: white !important;
+
 }
 
 .link{
@@ -71,4 +72,164 @@ body{
 .categorias_home
 {
     margin-top: 10px !important;
+}
+
+.fonte_artefatos
+{
+    font-family: 'Italianno';font-size: 22px !important;
+    font-size: 40px !important;
+}
+
+.borda_ok{
+    border-color: #3D5AF1 !important; 
+}
+.circulo_img
+{
+    width: 90px !important;
+    height: 90px !important;
+    margin-left: 100px !important; 
+}
+.circulo{ 
+    font-family: 'Italianno';font-size: 60px !important;
+}
+ 
+
+.formulario_cadastro_itens
+{
+    margin-top: 20px !important; 
+}
+.cadastro_produtos_admin
+{
+    width: 70%;
+    margin-top: 10px !important;
+    margin-left: 100px !important;
+    border-width: 3px !important;
+    background-color: #7099da52 !important;
+    padding: 10px !important;
+}
+
+.links_adm
+{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.botao_adm
+{
+    margin-left: 900px !important ;
+    margin-top: 50px !important;
+    margin-top: 20px !important;
+    background-color: #7098DA !important;
+    color: white !important;
+}
+
+.filtro 
+{
+    width: 249px !important;
+    height: 1100px !important;
+    background-color: #EEEEEE !important; 
+    padding: 7px !important;
+    border-radius: 15px !important; 
+    margin-left: 15px !important; 
+    margin-top: 30px !important;
+}
+.titulo_filtro
+{
+    margin-top: 7px !important;
+    margin-bottom: 12px !important; 
+}
+
+.caixas_filtro
+{
+    width: 210px !important;
+    height: 23px !important;
+    color: white !important;
+    background-color: #3D5AF1 !important;
+    padding-bottom: 20px !important;
+    padding-left: 2px !important; 
+    margin-left: 5px !important;   
+}
+.checkbox
+{
+    margin-left: 10px !important; 
+}
+.valor{
+    margin-top: 15px !important; 
+    margin-right: 7px !important;
+    width: 240px !important;
+}
+
+.branco
+{
+    display: flex !important;
+    flex-direction: row !important; 
+}
+
+.imagens_conteudo
+{
+    display: flex !important;
+    flex-direction: row !important; 
+    margin-left: 40px !important;
+}
+
+.figuras
+{
+    margin: 20px !important;
+    flex-direction: row !important
+}
+.imagem_livro1
+{
+    margin-top: 20px !important;
+    margin-left: 30px !important;
+}
+.texto_livro1
+{
+    margin-left: 43px !important;
+}
+.imagem_livro2
+{
+    margin-top: 6px !important;
+}
+.texto_livro2
+{
+    margin-top: 18px !important;
+}
+.imagem_livro3
+{
+    margin-top: 20px !important;
+}
+.texto_livro3
+{
+    margin-top: 13px !important;
+}
+.texto_livro4
+{
+    margin-top: 10px !important;
+}
+.imagem_livro5
+{
+    margin-top: 3px !important;
+    margin-left: 7px !important;
+}
+.texto_livro5
+{
+    margin-top: 15px !important;
+    margin-left: 10px !important;
+}
+.imagem_livro6
+{
+    margin-top: 10px !important;
+}
+.texto_livro6
+{
+    margin-top: 14px !important;
+}
+.promocao
+{
+    margin-top: 30px;
+}
+.ir_cadastro
+{
+    text-decoration: none !important;
+    color: #0E153A !important;
 }
