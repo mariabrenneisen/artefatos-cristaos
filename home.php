@@ -21,7 +21,7 @@
 <?php
     //verifica se o usuario conectado é administrador para mostrar a mensagem.
     if ($_SESSION['is_adm_usuario'] == 1) {
-        echo ("location: Admin.html");
+        echo ("location:Admin.html");
     }
     ?>
 
