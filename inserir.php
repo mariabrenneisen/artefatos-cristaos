@@ -1,15 +1,15 @@
 <?php
     include("conexao.php");
 
-    $email = $_POST["nome"];
-    $senha = $_POST["sobrenome"];
-    $email = $_POST["cpf"];
-    $senha = $_POST["data_nascimento"];
+    $nome = $_POST["nome"];
+    $sobrenome = $_POST["sobrenome"];
+    $cpf = $_POST["cpf"];
+    $data_nascimento = $_POST["data_nascimento"];
     $email = $_POST["email"];
     $senha = MD5($_POST["senha"]);
-    $email = $_POST["login_usuario"];
+    $login_usuario = $_POST["login_usuario"];
     
-    $comando = $pdo -> prepare("INSERT INTO pessoa (nome, sobrenome, cpf, data_nascimento,email, senha, login_usuario) VALUES(:nome,:sobrenome,:cpf,:data_nascimento,:email,:senha,:login_usuario)");
+    $comando = $pdo -> prepare("INSERT INTO usuario (nome, sobrenome, cpf, data_nascimento,email, senha, login_usuario) VALUES(:nome,:sobrenome,:cpf,:data_nascimento,:email,:senha,:login_usuario)");
     
     $comando->bindValue(":nome",$nome);                                     
     $comando->bindValue(":sobrenome",$sobrenome); 
