@@ -13,7 +13,7 @@
         <br>
         <label>Senha:</label>
         <input type="password" name="senha">
-        <input type="submit" name="Cadastrar=se">
+        <input type="submit" name="Cadastrar-se">
     </form>
 </body>
 </html>
