@@ -2,7 +2,7 @@
     session_start();
     // Verifique se o usuário está logado, se não, redirecione-o para uma página de login
     if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
-        header("location: login.php");
+        header("location:login.php");
         exit;
     }
 ?>
@@ -23,7 +23,7 @@
     if ($_SESSION['is_adm_usuario'] == 1) {
         echo ("location:Admin.html");
     }
-    ?>
+?>
 
     <header class="header mx-auto text-light" style="background-color: #0E153A">
         <ul class="header nav justify-content-end">
