@@ -2,7 +2,7 @@
     session_start();
     // Verifique se o usuário está logado, se não, redirecione-o para uma página de login
     if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
-        header("location: login.html");
+        header("location: login.php");
         exit;
     }
 ?>
@@ -18,6 +18,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script> 
 </head>
 <body>
+<?php
+    //verifica se o usuario conectado é administrador para mostrar a mensagem.
+    if ($_SESSION['is_adm_usuario'] == 1) {
+        echo ("location: Admin.html");
+    }
+    ?>
+
     <header class="header mx-auto text-light" style="background-color: #0E153A">
         <ul class="header nav justify-content-end">
             <li class="nav-item active">
