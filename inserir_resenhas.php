@@ -1,13 +1,8 @@
 <?php
     include("conexao.php");
 
-    $email = $_POST["email"];
-    $senha = MD5($_POST["senha"]);
-    $login_usuario = $_POST["login_usuario"];
-    $nome = $_POST["nome"];
-    $sobrenome = $_POST["sobrenome"];
-    $cpf = $_POST["cpf"];
-    $data_nascimento = $_POST["data_nascimento"];
+    $email = $_POST[""];
+    $senha = $_POST["senha"];
 
     $comando = $pdo->prepare("INSERT INTO usuario (email, senha, login_usuario, nome, sobrenome, cpf, data_nascimento) VALUES(:email,:senha,:login_usuario,:nome,:sobrenome,:cpf,:data_nascimento)");
     

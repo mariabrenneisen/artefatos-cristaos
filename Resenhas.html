@@ -11,64 +11,57 @@
     
 <body>
     <header class="header mx-auto text-light" style="background-color: #0E153A">
-            <ul class="header nav">
-                <li class="nav-item active">
-                    <a class="nav-link ajuda" href="Ajuda.html">Precisa de Ajuda</a>
-                </li>
-            </ul>
-    </header>
-    
-        <nav class="navbar" style="background-color: #3D5AF1">
-            <div class="container-fluid">
-                <div class="row">
-                        <div class="col-md-4 col-xs-12">
-                                <a class="navbar-brand text-light">
-                                        <img src="img/LogoBranca.png" alt="Logo" width="50" height="46" class="d-inline-block align-text-center">
-                                        Artefatos Cristãos
-                                </a>
-                        </div>
-                        <div class="col-md-5 col-xs-12" style="background-color: #3D5AF1">
-                                <form class="form-control col-md-6 col-xs-12 form_pesquisa" role="text">
-                                    <input class="form-control me-2" type="text" placeholder="O que você está procurando?" aria-label="O que você está procurando">
-                                </form>
-                        </div>
-    
-                        <div class="col-md-4 col-xs-12">
-                                <a class="nav-link active d-inline-block align-text-center" aria-current="page" href="Resenhas.html" >
-                                        <img src="img/livro.png" width="46" height="46">
-                                        Cabeceira
-                                </a>
-                        </div>
-                        <div class="col-md-4 col-xs-12">
-                                <a class="nav-link active d-inline-block align-text-center" aria-current="page" href="entrar.html">
-                                        <img src="img/perfil.png" width="46" height="46">
-                                        Entrar
-                                    </a>
-                        </div>
-                        <div class="col-md-4 col-xs-12">
-                                <a class="nav-link active d-inline-block align-text-center" href="#" aria-current="page" href=".html">
-                                        <img src="img/carrinho.png" width="46" height="46">
-                                </a>
-                        </div>
-                </div>
-              
-            </div>
-        </nav>
+        <ul class="header nav justify-content-end">
+            <li class="nav-item active">
+                <a class="nav-link ajuda" href="Ajuda.html">Precisa de Ajuda</a>
+            </li>
+        </ul>
+    </header>                                                                                                                                                                                                                                                                                                            
 
+    <ul class="nav" style="background-color: #3D5AF1">
+        <li class="nav-item">
+          <a class="nav-link active text-light" aria-current="page" href="#">
+                <img src="img/LogoBranca.png" alt="Logo" width="50" height="46" class="d-inline-block align-text-center">  
+                Artefatos Cristãos
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light">
+                <input class="form-control pesquisa" type="text" placeholder="O que você está procurando?" aria-label="O que você está procurando">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="cabeceira.html">
+                <img src="img/livro.png" width="46" height="46">
+                Cabeceira
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="entrar.html">
+                  <img src="img/perfil.png" width="46" height="46">
+                  Entrar
+         </a>
+        </li>
+        <li class="nav-item">
+                <a class="nav-link text-light" href="carrinho.html">
+                        <img src="img/carrinho.png" width="46" height="46">     
+                </a>
+        </li>
+      </ul>
        
-        <div class="row">
-                <div class="col-md-2 col-xs-12 link">
-                        <a class="div-link align-text-center link" href="categorias.html">Todas as categorias</a>
-                </div>
-                <div class="col-md-1 col-xs-12">
-                        <a class="div-link align-text-center link" href="categorias.html">Livros</a>
-                </div>
-                <div class="col-md-2 col-xs-12">
-                        <a class="div-link align-text-center link" href="categorias.html">Outlet</a>
-                </div>
+      <div class="row categorias_home">
+        <div class="col-md-1 col-xs-6">
+                <a class="nav-link active text-dark align-text-center link fs-6" href="categorias.html">Categorias</a>
         </div>
-        
-        <hr class="linha">
+        <div class="col-md-1 col-xs-6">
+                <a class="div-link align-text-center link fs-6" href="categorias.html">Livros</a>
+        </div>
+        <div class="col-md-1 col-xs-6">
+                <a class="div-link align-text-center link fs-6" href="categorias.html">Outlet</a>
+        </div>
+    </div>
+
+    <hr class="linha">
 
 
         <div class="container-fluid">
@@ -80,17 +73,17 @@
                         <div class="row">
                             <div class="col-md-6 col-xs-12">
                                     <label>Nome do Livro:</label>
-                                    <input class="form-control" type="text">
+                                    <input class="form-control" type="text" name="nome_livro">
                             </div>
                             <div class="col-md-6 col-xs-12">
                                     <label>Autor:</label>
-                                    <input class="form-control" type="text">
+                                    <input class="form-control" type="text" name="autor_livro">
                             </div>
                         </div>
                         <br>
                         <div class="mb-3 col-xs-12">
                                 <label for="textoresenha" class="form-label">Resenha</label>
-                                <textarea class="form-control" id="textoresenha" rows="10"></textarea>
+                                <textarea class="form-control" id="textoresenha" rows="10" name="resenha"></textarea>
                         </div>
                         <div class="row justify-content-center align-itens-center">
                                 <div class="col-md-auto">
