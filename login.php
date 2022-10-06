@@ -2,7 +2,7 @@
     include("conexao.php");
 
     $email = $_POST["email"];
-    $set_senha = $_POST["senha"];
+    $set_senha = password_hash( $_POST['senha'], PASSWORD_DEFAULT );
 
     $comando = $pdo->prepare("SELECT codUsuario, senha, tipo_cadastro FROM usuario WHERE email = :email");
         $comando->bindValue(":email", $email);
@@ -12,7 +12,8 @@
         {
             $resultado = $comando->fetch();
 
-            if($resultado['senha'] == MD5($set_senha)){
+            if (password_verify( $_POST['senha'], $set_senha ) ){
+
 
                 session_start();
                 $_SESSION['codUsuario'] = $resultado['codUsuario'];
@@ -23,7 +24,7 @@
 
 
             }else{
-                echo("Login ou senha incorretos - aquiiiiii");
+                echo("Login ou senha incorretos!");
             }
             
         }else{
