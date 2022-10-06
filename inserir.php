@@ -2,7 +2,7 @@
     include("conexao.php");
 
     $email = $_POST["email"];
-    $senha = password_hash( $_POST['senha'], PASSWORD_DEFAULT );
+    $senha = MD5($_POST["senha"]);
     $login_usuario = $_POST["login_usuario"];
     $nome = $_POST["nome"];
     $sobrenome = $_POST["sobrenome"];
