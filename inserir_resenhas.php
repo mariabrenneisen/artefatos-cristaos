@@ -1,21 +1,18 @@
 <?php
     include("conexao.php");
 
-    $email = $_POST[""];
-    $senha = $_POST["senha"];
+    $tituloLivro = $_POST["tituloLivro"];
+    $autor = $_POST["autor"];
+    $resenha = $_POST["resenha"];
 
-    $comando = $pdo->prepare("INSERT INTO usuario (email, senha, login_usuario, nome, sobrenome, cpf, data_nascimento) VALUES(:email,:senha,:login_usuario,:nome,:sobrenome,:cpf,:data_nascimento)");
+    $comando = $pdo->prepare("INSERT INTO resenha (tituloLivro, autor, resenha) VALUES(:tituloLivro,:autor,:resenha)");
     
-    $comando->bindValue(":email",$email);                                     
-    $comando->bindValue(":senha",$senha); 
-    $comando->bindValue(":login_usuario",$login_usuario);                                     
-    $comando->bindValue(":nome",$nome);
-    $comando->bindValue(":sobrenome",$sobrenome);                                     
-    $comando->bindValue(":cpf",$cpf);
-    $comando->bindValue(":data_nascimento",$data_nascimento);  
+    $comando->bindValue(":tituloLivro",$tituloLivro);                                     
+    $comando->bindValue(":autor",$autor); 
+    $comando->bindValue(":resenha",$resenha);
     
     $comando->execute();     
     
     
-    header("Location:entrar.html");
+    header("Location: Resenhas_prontas.html");
 ?>
