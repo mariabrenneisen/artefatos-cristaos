@@ -72,46 +72,47 @@
             <div class="container-fluid">
                     <br>
                     <h1 class="h1 text-light texto_resenha text-align-center" style="background-color: #3D5AF1">Escreva aqui o cadastro dos livros que você quer adicionar na sua loja:</h1>
-                    <form>
+                    
+                    <form action="inserir_produtos.php" method="POST">
                         <div class="form-group formulario_cadastro_itens">
                             <div class="row">
                                 <div class="col-md-6 col-xs-12">
                                         <label>Nome do Produto:</label>
-                                        <input class="form-control" type="text">
+                                        <input class="form-control" type="text" name="nomeProduto">
                                 </div>
                                 <div class="col-md-6 col-xs-12">
                                         <label>Código:</label>
-                                        <input class="form-control" type="text">
+                                        <input class="form-control" type="text" name="codigo_livro">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-6 col-xs-12">
                                         <label>Valor:</label>
-                                        <input class="form-control" type="text">
+                                        <input class="form-control" type="text" name="precoProduto">
                                 </div>
                                 <div class="col-md-6 col-xs-12">
                                         <label>Autor:</label>
-                                        <input class="form-control" type="text">
+                                        <input class="form-control" type="text" name="autor">
                                 </div>
                             </div>
                             <div class="row">
                                     <div class="col-md-6 col-xs-12">
                                             <label>Editora:</label>
-                                            <input class="form-control" type="text">
+                                            <input class="form-control" type="text" name="editora">
                                     </div>
                                     <div class="col-md-6 col-xs-12">
                                             <label>Ano de Lançamento:</label>
-                                            <input class="form-control" type="date">
+                                            <input class="form-control" type="date" name="data_lancamento">
                                     </div>
                                 </div>
                                 <div class="row justify-content-center align-itens-center">
                                     <div class="col-md-6 col-xs-12">
                                             <label>Faixa Etária:</label>
-                                            <input class="form-control" type="text">
+                                            <input class="form-control" type="text" name="faixa_etaria">
                                     </div>
                                     <div class="col-md-6 col-xs-12">
                                             <label>Quantidade em Estoque:</label>
-                                            <input class="form-control" type="text">
+                                            <input class="form-control" type="text" name="quantidade_estoque">
                                     </div>
                                 </div>
                             <br>
