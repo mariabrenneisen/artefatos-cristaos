@@ -18,12 +18,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script> 
 </head>
 <body>
-<?php
-    //verifica se o usuario conectado é administrador para mostrar a mensagem.
-    if ($_SESSION['tipo_cadastro'] == 1) {
-        header("location: Admin.html");
-    }
-    ?>
 
     <header class="header mx-auto text-light" style="background-color: #0E153A">
         <ul class="header nav justify-content-end">
@@ -46,7 +40,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="cabeceira.html">
+          <a class="nav-link text-light" href="Resenhas.html">
                 <img src="img/livro.png" width="46" height="46">
                 Cabeceira
           </a>

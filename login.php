@@ -13,12 +13,19 @@
             $resultado = $comando->fetch();
 
             if($resultado['senha'] == MD5($set_senha)){
-                header("location: home.php");
-
                 session_start();
                 $_SESSION['codUsuario'] = $resultado['codUsuario'];
                 $_SESSION['tipo_cadastro'] = $resultado['tipo_cadastro'];
                 $_SESSION['loggedin'] = true;
+
+                if ($resultado['tipo_cadastro'] == 1) {
+
+                    header("location: Admin.html");
+                    }
+                    else
+                    {
+                        header("location: home.php");
+                    }
 
 
             }else{
