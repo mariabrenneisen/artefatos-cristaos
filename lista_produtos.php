@@ -1,12 +1,3 @@
-<?php
-session_start();
-// Verifique se o usuário está logado, se não, redirecione-o para uma página de login
-if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
-    header("location: login.html");
-    exit;
-}
-?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -31,10 +22,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
         </nav>
 <br>
     <div class="container-fluid">
-    <?php
-        include("listar_usuarios_conectados.php");
-        $informacoes_usuario['nome'];
-    ?>
+        
     <h3>Listar Usuários:</h3>
     <br>
     <table border="1" class="table table-striped table-hover">
@@ -42,23 +30,33 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
             <tr>
                 <th>Código</th>
                 <th>Nome</th>
-                <th>Email</th>
-                <th>Tipo do Cadastro</th>
+                <th>Preço</th>
+                <th>Editora</th>
+                <th>Faixa Etária</th>
+                <th>Autor</th>
+                <th>Ano de Lançamento</th>
+                <th>Quantidade em Estoque</th>
+                <th>Imagem do Produto</th>
             </tr>
         </thead>
         <tbody>
             <?php
-            include("listar_usuarios.php");
+            include("listar_produtos.php");
 
             //verifica se a variável tem os valores da tabela.
-            if (!empty($lista_usuarios)) {
+            if (!empty($lista_produtos)) {
                 //seleciona linha por linha.
-                foreach ($lista_usuarios as $linha) { ?>
+                foreach ($lista_produtos as $linha) { ?>
                     <tr>
                         <td> <?php echo $linha['codProduto']; ?></td>
                         <td> <?php echo $linha['nomeProduto']; ?></td>
+                        <td> <?php echo $linha['precoProduto']; ?></td>
+                        <td> <?php echo $linha['editora']; ?></td>
+                        <td> <?php echo $linha['faixa_etaria']; ?></td>
+                        <td> <?php echo $linha['autor']; ?></td>
+                        <td> <?php echo $linha['ano_lancamento']; ?></td>
                         <td> <?php echo $linha['quantidade_estoque']; ?></td>
-                        <td> <?php echo $linha['tipo_cadastro']; ?></td>
+                        <td> <?php echo '<img height="40px" width="40px" src="' .$linha['imagem_usuario']. '">'; ?> </td>
                     </tr>
             <?php }
             }

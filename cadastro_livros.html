@@ -73,7 +73,7 @@
                     <br>
                     <h1 class="h1 text-light texto_resenha text-align-center" style="background-color: #3D5AF1">Escreva aqui o cadastro dos livros que você quer adicionar na sua loja:</h1>
                     
-                    <form action="inserir_produtos.php" method="POST">
+                    <form action="inserir_produtos.php" method="POST" enctype="multipart/form-data">
                         <div class="form-group formulario_cadastro_itens">
                             <div class="row">
                                 <div class="col-md-6 col-xs-12">
@@ -118,7 +118,7 @@
                                 <br>
                                 <div class="row"> 
                                     <div class="col-md-6 col-xs-12">  
-                                        <input type="file" name="imagem" multiple accept="image/*">
+                                        <input type="file" name="imagem_produto" multiple accept="image/*">
                                     </div>
                                 </div>
                             <br>
@@ -128,6 +128,11 @@
                                     </div>
                             </div>
                     </form>
+                    <div class="row justify-content-center align-itens-center">
+                        <div class="col-md-auto">
+                                <a class="ir_cadastro" href="lista_produtos.php">Listar Produtos</a>
+                        </div>
+                    </div>
             </div>
 </body>
 </html>
