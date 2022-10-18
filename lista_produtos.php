@@ -56,7 +56,8 @@
                         <td> <?php echo $linha['autor']; ?></td>
                         <td> <?php echo $linha['ano_lancamento']; ?></td>
                         <td> <?php echo $linha['quantidade_estoque']; ?></td>
-                        <td> <?php echo '<img height="40px" width="40px" src="' .$linha['imagem_usuario']. '">'; ?> </td>
+                        <td> <?php echo '<img height="40px" width="40px" src="'.$linha['imagem_produto']. '">'; ?> </td>
+                        <td> <img src="img/x.png" onclick="Deletar(<?php echo $linha['codProduto']; ?>);"></td>
                     </tr>
             <?php }
             }
@@ -65,7 +66,16 @@
     </table>  
     </div>    
 
-   
-
 </body>
+<script>
+        function Deletar(codigo)
+        {
+            var resposta = prompt("Deseja realmente excluir?", "N");
+            if( resposta == "S" || resposta == "s")
+            {
+                window.open("deletar_resenha.php?codigo=" + codigo,"_self");
+            }
+            
+        }
+    </script>
 </html>

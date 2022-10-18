@@ -59,7 +59,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
                         <td> <?php echo $linha['nome']; ?></td>
                         <td> <?php echo $linha['email']; ?></td>
                         <td> <?php echo $linha['tipo_cadastro']; ?></td>
-                        
+                        <td> <img src="img/x.png" onclick="Deletar(<?php echo $linha['codUsuario']; ?>);"></td>
                     </tr>
             <?php }
             }
@@ -71,4 +71,16 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
    
 
 </body>
+    <script>
+        function Deletar(codigo)
+        {
+            var resposta = prompt("Deseja realmente excluir?", "N");
+            if( resposta == "S" || resposta == "s")
+            {
+                window.open("deletar_usuario.php?codigo=" + codigo,"_self");
+            }
+            
+        }
+    </script>
+        
 </html>
