@@ -30,13 +30,11 @@
 
 
             }else{
-                echo("Email ou senha incorretos! - aquiii");
+                echo("Email ou senha incorretos!");
             }
             
         }else{
             echo("Email ou senha incorreto!");
         }
 
-        unset($comando);
-        unset($pdo)
 ?>

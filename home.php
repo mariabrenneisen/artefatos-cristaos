@@ -56,8 +56,23 @@
                         <img src="img/carrinho.png" width="46" height="46">     
                 </a>
         </li>
-      </ul>
+      
 
+      <div class="toast-container position-static" >
+      <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+          <svg class="bd-placeholder-img rounded me-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#007aff"></rect></svg>
+          
+          <strong class="me-auto">Artefatos Cristãos</strong>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+          Hoje é seu aniversário né? Nós da equipe Artefatos Cristãos queremos lhe desejar um Feliz Aniversário. Que Deus abençoe você sempre!
+        </div>
+      </div>
+    </div>
+
+    </ul>
     <div class="container-fluid">
             <div class="row categorias_home">
                     <div class="col-md-1 col-xs-6">
