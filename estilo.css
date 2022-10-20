@@ -254,3 +254,24 @@ body{
 	box-shadow:        -5px 5px 5px rgb(182, 182, 182);
     
 }
+.titulo_resenha{
+    margin-left: 300px !important;
+}
+.caixa_lista_resenhas
+{
+    width: 800px !important;
+    height: 380px !important;
+    background-color: #EAEAEA !important; 
+    border-radius: 20px !important; 
+    border: none !important;
+    padding: 15px !important;
+    margin-bottom: 20px !important; 
+    margin-left: 40px !important; 
+    
+}
+
+.nome_pessoa_resenha{
+    color: #6C6C6C !important;
+    font-size: 15px !important;
+    padding-bottom: 10px !important; 
+}

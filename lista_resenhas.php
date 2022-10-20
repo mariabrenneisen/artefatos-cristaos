@@ -31,37 +31,35 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
         </nav>
 <br>
     <div class="container-fluid">
-    <h3>Listar Resenhas:</h3>
-    <br>
-    <table border="1" class="table table-striped table-hover table-responsive">
-        <thead>
-            <tr>
-                <th>Nome</th>
-                <th>Título do Livro</th>
-                <th>Autor</th>
-                <th>Resenha</th>
-            </tr>
-        </thead>
-        <tbody>
-            <?php
+    <h3 class="titulo_resenha">Lista de Resenhas:</h3>
+    <br> 
+    <?php
             include("listar_resenhas.php");
 
             //verifica se a variável tem os valores da tabela.
             if (!empty($lista_usuarios)) {
                 //seleciona linha por linha.
                 foreach ($lista_usuarios as $linha) { ?>
-                    <tr>
-                        <td class="nomes"> <?php echo $linha['nome']; ?></td>
-                        <td class="nomes"> <?php echo $linha['tituloLivro']; ?></td>
-                        <td class="nomes"> <?php echo $linha['autor']; ?></td>
-                        <td class="resenhas"> <?php echo $linha['resenha']; ?></td>
-                    </tr>
+                <div class="row lista_resenhas justify-content-center align-itens-center">
+                    <div class="col-md-4 col-xs-15 caixa_lista_resenhas">
+                            <label class="nome_pessoa_resenha"><?php echo $linha['nome']; ?></label>
+                            <br>
+                            <h6><?php echo $linha['tituloLivro']; ?></h6>
+                            <label><?php echo $linha['autor']; ?></label>
+                            <br><br>
+                            <label><?php echo $linha['resenha']; ?></label>
+                    </div>
+                </div>
             <?php }
             }
             ?>
-        </tbody>
-    </table>  
-    </div>    
+
+    
+
+    </div> 
+
+
+
 
    
 
