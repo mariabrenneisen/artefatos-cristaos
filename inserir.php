@@ -28,7 +28,7 @@ if($nome && $email){
         $sql->bindValue(":data_nascimento",$data_nascimento);
         $sql->execute(); 
 
-        header("Location: home.php");
+        header("Location: entrar.html");
         exit;
     } else {
         echo ('<script> alert("E-mail já cadastrado.");
