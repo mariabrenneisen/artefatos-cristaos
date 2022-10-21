@@ -275,3 +275,11 @@ body{
     font-size: 15px !important;
     padding-bottom: 10px !important; 
 }
+
+.branco2
+{
+    display: flex !important;
+    flex-direction: row !important; 
+    margin: 0;
+    background-color: #7098DA
+}

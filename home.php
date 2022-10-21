@@ -57,7 +57,7 @@
                 </a>
         </li>
       
-
+<!-- 
       <div class="toast-container position-static" >
       <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
         <div class="toast-header">
@@ -70,7 +70,7 @@
           Hoje é seu aniversário né? Nós da equipe Artefatos Cristãos queremos lhe desejar um Feliz Aniversário. Que Deus abençoe você sempre!
         </div>
       </div>
-    </div>
+    </div> -->
 
     </ul>
     <div class="container-fluid">
