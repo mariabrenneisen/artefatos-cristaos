@@ -313,3 +313,14 @@ body{
     color: white !important;
     border: none !important; 
 }
+
+.detalhe_produto
+{
+    width: 90% !important;
+    background-color: rgb(231, 231, 231) !important; 
+    margin-bottom: 15px !important;
+    margin-top: 30px !important; 
+    margin-left: 60px !important; 
+    border-radius: 25px !important; 
+    padding: 10px !important; 
+}
