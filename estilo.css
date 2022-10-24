@@ -318,9 +318,15 @@ body{
 {
     width: 90% !important;
     background-color: rgb(231, 231, 231) !important; 
-    margin-bottom: 15px !important;
+    margin-bottom: 25px !important;
     margin-top: 30px !important; 
     margin-left: 60px !important; 
     border-radius: 25px !important; 
     padding: 10px !important; 
+}
+.tabela_conteudo
+{
+    width: 90% !important;
+    margin-bottom: 40px !important;
+    margin-left: 60px !important;  
 }
