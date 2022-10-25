@@ -436,7 +436,10 @@
                         <div class="imagens_conteudo">
                 
                                         <figure class="figure figuras caixa_imagens">
-                                                <img src="img/biblia21.png" class="figure-img img-fluid rounded" width="200" height="350">
+                                        <a href="conteudo.php?codProduto=<?php echo(15);?>">
+                                                <img src="img/biblia21.png" class="figure-img img-fluid rounded" width="200" height="350"> 
+                                        </a>
+                                               
                                                 <figcaption class="figure-caption legenda">
                                                         <span class="span fw-bolder">Jesus todo dia</span>
                                                         <br>
@@ -446,7 +449,9 @@
                                                 </figcaption>
                                         </figure> 
                                         <figure class="figure figuras caixa_imagens">
-                                                <img src="img/biblia22.png" class="figure-img img-fluid rounded" width="200" height="350">
+                                                <a href="conteudo.php?codProduto=<?php echo(13);?>">
+                                                        <img src="img/biblia22.png" class="figure-img img-fluid rounded" width="200" height="350"> 
+                                                </a>
                                                 <figcaption class="figure-caption legenda">
                                                         <span class="span fw-bolder">As Crônicas de Nárnia</span>
                                                         <br>
@@ -456,7 +461,10 @@
                                                 </figcaption>
                                         </figure>  
                                         <figure class="figure figuras caixa_imagens">
+                                        <a href="conteudo.php?codProduto=<?php echo(15);?>">
                                                 <img src="img/biblia23.png" class="figure-img img-fluid rounded" width="200" height="350">
+                                        </a>
+                                                
                                                 <figcaption class="figure-caption legenda">
                                                         <span class="span fw-bolder">Ego Transformado</span>
                                                         <br>

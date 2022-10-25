@@ -171,6 +171,7 @@ body{
     display: flex !important;
     flex-direction: row !important; 
     margin-left: 70px !important;
+    background-color: #7098DA !important; 
 }
 
 .figuras
@@ -286,15 +287,16 @@ body{
 .cronicas_de_narnia
 {
     margin-left: 100px !important;
-    margin-top: 100px !important; 
-    width: 350px !important;
-    height: 350px !important;
+    margin-top: 20px !important; 
+    width: 320px !important;
+    height: 320px !important;
+    background-color: rgba(61, 91, 241, 0) !important; 
 }
 .caixa_informacao_imagem
 {
     width: 800px !important;
     height: 380px !important;
-    background-color: rgba(255, 255, 255, 0) !important; 
+    background-color: rgba(190, 0, 0, 0) !important; 
     border-radius: 20px !important; 
     border: none !important;
     padding: 15px !important;
