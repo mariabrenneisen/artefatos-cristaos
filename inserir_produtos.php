@@ -32,7 +32,7 @@
     $comando->execute();
 
     //redireciona para a pagina informada.
-    header("Location:inserir_produtos.html");
+    header("Location:inserir_produtos.php");
 
     //Fecha declaração e conexão.
     unset($comando);
