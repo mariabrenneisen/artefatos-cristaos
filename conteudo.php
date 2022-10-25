@@ -90,7 +90,7 @@
   <div class="row">
       <div class="imagens_conteudo">
           <figure class="figure cronicas_de_narnia">
-                  <img src="<?php echo($imagem) ?>" class="figure-img img-fluid rounded">
+                  <img src="<?php echo($imagem) ?>" class="figure-img img-fluid rounded figure">
           </figure>  
           <div class="row justify-content-center align-itens-center">
             <div class="col-md-4 col-xs-15 caixa_informacao_imagem ">

@@ -436,7 +436,7 @@
                         <div class="imagens_conteudo">
                 
                                         <figure class="figure figuras caixa_imagens">
-                                        <a href="conteudo.php?codProduto=<?php echo(15);?>">
+                                        <a href="conteudo.php?codProduto=<?php echo(18);?>">
                                                 <img src="img/biblia21.png" class="figure-img img-fluid rounded" width="200" height="350"> 
                                         </a>
                                                

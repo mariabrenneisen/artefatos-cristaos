@@ -171,7 +171,7 @@ body{
     display: flex !important;
     flex-direction: row !important; 
     margin-left: 70px !important;
-    background-color: #7098DA !important; 
+    background-color: rgba(112, 153, 218, 0) !important; 
 }
 
 .figuras
@@ -292,6 +292,11 @@ body{
     height: 320px !important;
     background-color: rgba(61, 91, 241, 0) !important; 
 }
+.figure{
+    width: 320px !important;
+    height: 443px !important;
+}
+
 .caixa_informacao_imagem
 {
     width: 800px !important;
