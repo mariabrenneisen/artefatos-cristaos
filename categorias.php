@@ -52,7 +52,7 @@
       <div class="container-fluid">
                 <div class="row categorias_home">
                     <div class="col-md-1 col-xs-6">
-                            <a class="nav-link active text-dark align-text-center link fs-6" href="categorias.html">Categorias</a>
+                            <a class="nav-link active text-dark align-text-center link fs-6" href="categorias.php">Categorias</a>
                     </div>
                     <div class="col-md-1 col-xs-6">
                             <a class="div-link align-text-center link fs-6" href="categorias.html">Livros</a>

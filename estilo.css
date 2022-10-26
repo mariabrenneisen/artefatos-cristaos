@@ -245,8 +245,8 @@ body{
 }
 .caixa_imagens
 {
-    width: 234px !important;
-    height: 400px !important;
+    width: 150px !important;
+    height: 300px !important;
     background-color: rgb(241, 241, 241) !important;
     border-radius: 20px !important; 
     padding: 10px !important;
