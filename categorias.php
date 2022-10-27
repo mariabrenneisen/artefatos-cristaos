@@ -183,8 +183,8 @@
         <br> <br>
     </section>
 
-    <section class="col-main conteudo">
-        <div class="row">
+    <section class="col-main">
+        <div class="row linha_row">
             <div class="imagens_conteudo">
                 <figure class="figure figuras caixa_imagens">
                         <img src="img/biblia1.png" class="figure-img img-fluid rounded" width="210" height="360">

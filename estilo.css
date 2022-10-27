@@ -1,7 +1,6 @@
 body{
     width: 100%;
     margin: 0;
-    min-width: 100vh;
     align-items: center;
     justify-content: center;
 }
@@ -163,7 +162,10 @@ body{
 {
     display: flex !important;
     flex-direction: row !important; 
-    margin: 0;
+    margin: 0 !important;
+}
+.linha_row{
+    width: 90% !important; 
 }
 
 .imagens_conteudo
@@ -293,8 +295,8 @@ body{
     background-color: rgba(61, 91, 241, 0) !important; 
 }
 .figure{
-    width: 320px !important;
-    height: 443px !important;
+    width: 250px !important;
+    height: 400px !important;
 }
 
 .caixa_informacao_imagem
@@ -336,4 +338,7 @@ body{
     width: 90% !important;
     margin-bottom: 40px !important;
     margin-left: 60px !important;  
+}
+.container{
+    width: 100%;
 }
