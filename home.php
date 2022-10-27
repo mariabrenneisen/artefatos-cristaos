@@ -73,18 +73,21 @@
     </div> -->
 
     </ul>
-    <div class="container-fluid container">
-            <div class="row categorias_home">
-                    <div class="col-md-1 col-xs-6">
-                            <a class="nav-link active text-dark align-text-center link fs-6" href="categorias.html">Categorias</a>
-                    </div>
-                    <div class="col-md-1 col-xs-6">
-                            <a class="div-link align-text-center link fs-6" href="categorias.html">Livros</a>
-                    </div>
-                    <div class="col-md-1 col-xs-6">
-                            <a class="div-link align-text-center link fs-6" href="categorias.html">Outlet</a>
-                    </div>
-                </div>
+    <div class="container-fluid">
+    <div class="row">
+                    <div class="row categorias_home">
+                            <div class="col-md-1 col-xs-6">
+                                    <a class="nav-link active text-dark align-text-center link fs-6" href="categorias.php">Categorias</a>
+                            </div>
+                            <div class="col-md-1 col-xs-6">
+                                    <a class="div-link align-text-center link fs-6" href="categorias.php">Livros</a>
+                            </div>
+                            <div class="col-md-1 col-xs-6">
+                                    <a class="div-link align-text-center link fs-6" href="categorias.php">Outlet</a>
+                            </div>
+                        </div>
+        
+            </div>
 
                 <hr class="linha">
                 <div class="row">

@@ -14,9 +14,10 @@
     $descricao_produto = $_POST["descricao_produto"];
     $imagem = $_FILES['imagem_produto']; 
     $extensao = $imagem['type'];
+    
     $conteudo = file_get_contents($imagem['tmp_name']);
     $base64 = "data:".$extensao.";base64,".base64_encode($conteudo);
-
+    
     //comando SQL.
     $comando = $pdo->prepare("INSERT INTO produto (nomeProduto, precoProduto, editora, faixa_etaria, codigo_livro, autor, ano_lancamento,quantidade_estoque,sinopse,descricao_produto,imagem_produto) VALUES(:nomeProduto,:precoProduto,:editora,:faixa_etaria,:codigo_livro,:autor,:ano_lancamento,:quantidade_estoque,:sinopse,:descricao_produto,:imagem_produto)");
     //insere valores das variaveis no comando sql.
@@ -35,10 +36,12 @@
     //executa o comando SQL, ou seja, insere os dados no banco de dados.
     $comando->execute();
 
-    //redireciona para a pagina informada.
-    header("Location:cadastro_livros.html");
-
     //Fecha declaração e conexão.
     unset($comando);
     unset($pdo);
+
+    //redireciona para a pagina informada.
+    header("Location:cadastro_livros.html");
+
+    
 ?>
