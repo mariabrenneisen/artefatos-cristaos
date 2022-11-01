@@ -5,6 +5,7 @@
     $autor = $_POST["autor"];
     $resenha = $_POST["resenha"];
     $resenha = $_POST["nome"];
+    
     session_start();
 
     $comando = $pdo->prepare("INSERT INTO resenha (tituloLivro, autor, resenha,nome, fk_usuario_resenha) VALUES(:tituloLivro,:autor,:resenha,:nome, :fk_usuario_resenha)");
