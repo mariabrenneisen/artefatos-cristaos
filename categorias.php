@@ -439,7 +439,7 @@
                         <div class="imagens_conteudo">
                 
                                         <figure class="figure figuras caixa_imagens">
-                                        <a href="conteudo.php?codProduto=<?php echo(18);?>">
+                                        <a href="conteudo.php?codProduto=<?php echo(30);?>">
                                                 <img src="img/biblia21.png" class="figure-img img-fluid rounded" width="200" height="350"> 
                                         </a>
                                                
@@ -452,7 +452,7 @@
                                                 </figcaption>
                                         </figure> 
                                         <figure class="figure figuras caixa_imagens">
-                                                <a href="conteudo.php?codProduto=<?php echo(13);?>">
+                                                <a href="conteudo.php?codProduto=<?php echo(27);?>">
                                                         <img src="img/biblia22.png" class="figure-img img-fluid rounded" width="200" height="350"> 
                                                 </a>
                                                 <figcaption class="figure-caption legenda">
@@ -477,7 +477,10 @@
                                                 </figcaption>
                                         </figure>   
                                         <figure class="figure figuras caixa_imagens">
-                                                <img src="img/biblia24.png" class="figure-img img-fluid rounded" width="200" height="350">
+                                        <a class="livro_o_Deus_que_destroi_sonhos" href="conteudo.php?codProduto=<?php echo(26);?>">
+                                        <img src="img/biblia24.png" class="figure-img img-fluid rounded" width="200" height="350">
+                                        </a>
+                                                
                                                 <figcaption class="figure-caption legenda">
                                                         <span class="span fw-bolder">O Deus Que Destrói Sonhos</span>
                                                         <br>
@@ -500,7 +503,9 @@
                                         </figcaption>
                                 </figure> 
                                 <figure class="figure figuras caixa_imagens">
-                                        <img src="img/biblia18.jpg" class="figure-img img-fluid rounded" width="200" height="350">
+                                <a class="figuras" href="conteudo.php?codProduto=<?php echo(24);?>">
+                                <img src="img/biblia18.jpg" class="figure-img img-fluid rounded" width="180" height="330">
+                                </a>
                                         <figcaption class="figure-caption legenda">
                                                 <span class="span fw-bolder">As 5 Linguagens do Amor</span>
                                                 <br>
@@ -510,7 +515,9 @@
                                         </figcaption>
                                 </figure>  
                                 <figure class="figure figuras caixa_imagens">
-                                        <img src="img/biblia19.jpg" class="figure-img img-fluid rounded" width="180" height="330">
+                                <a class="figuras" href="conteudo.php?codProduto=<?php echo(31);?>">
+                                <img src="img/biblia19.jpg" class="figure-img img-fluid rounded" width="180" height="330">
+                                </a>
                                         <figcaption class="figure-caption legenda">
                                                 <span class="span fw-bolder">Quando Pecadores Dizem "Sim" </span>
                                                 <br>
@@ -520,7 +527,10 @@
                                         </figcaption>
                                 </figure>  
                                 <figure class="figure figuras caixa_imagens">
-                                        <img src="img/biblia20.jpg" class="figure-img img-fluid rounded" width="200" height="350">
+                                <a class="figuras" href="conteudo.php?codProduto=<?php echo(32);?>">
+                                <img src="img/biblia20.jpg" class="figure-img img-fluid rounded" width="200" height="350">
+                                </a>
+                                        
                                         <figcaption class="figure-caption legenda">
                                                 <span class="span fw-bolder">Antes de Dizer Sim</span>
                                                 <br>

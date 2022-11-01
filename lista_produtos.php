@@ -70,10 +70,10 @@
 <script>
         function Deletar(codigo)
         {
-            var resposta = prompt("Deseja realmente excluir?", "Não");
-            if( resposta == "S" || resposta == "s" || resposta == "SIM" || resposta == "sim" || resposta == "Sim")
+            var resposta = prompt("Deseja realmente excluir?", "N");
+            if( resposta == "S" || resposta == "s")
             {
-                window.open("deletar_resenha.php?codigo=" + codigo,"_self");
+                window.open("deletar_produtos.php?codigo=" + codigo,"_self");
             }
             
         }

@@ -294,7 +294,7 @@ body{
     height: 320px !important;
     background-color: rgba(61, 91, 241, 0) !important; 
 }
-.figure{
+.figuras{
     width: 250px !important;
     height: 400px !important;
 }
@@ -338,4 +338,8 @@ body{
     width: 90% !important;
     margin-bottom: 40px !important;
     margin-left: 60px !important;  
+}
+.livro_o_Deus_que_destroi_sonhos{
+    width: 400px !important;
+    height: 400px !important;
 }
