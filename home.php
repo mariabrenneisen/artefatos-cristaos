@@ -131,7 +131,10 @@
                     <div class="row justify-content-center align-itens-center">
                         <div class="col-md-2 col-xs-6 margin-right-10">
                                 <figure class="figure">
+                                <a href="conteudo.php?codProduto=<?php echo(15);?>">
                                         <img src="img/livro1.png" class="figure-img img-fluid rounded imagem_livro1" width="148" height="222">
+                                </a>
+                                      
                                         <figcaption class="figure-caption texto_livro1">
                                                 <span class="span fw-bolder" href="#">Ego Transformado</span>
                                                 <br>
@@ -144,7 +147,10 @@
                         <div class="col-md-2 col-xs-6 justify-content-center align-itens-center">
                                 <br>
                                 <figure class="figure">
-                                        <img src="img/livro2.png" class="figure-img img-fluid rounded imagem_livro2" width="164" height="205">
+                                <a class="figuras" href="conteudo.php?codProduto=<?php echo(26);?>">
+                                <img src="img/livro2.png" class="figure-img img-fluid rounded imagem_livro2" width="164" height="205">
+                                </a>
+                                       
                                         <figcaption class="figure-caption texto_livro2">
                                                 <span class="fw-bolder">O Deus que destroi sonhos</span>
                                                 <br>
@@ -156,7 +162,10 @@
                         </div>
                         <div class="col-md-2 col-xs-6 justify-content-center align-itens-center">
                                 <figure class="figure">
+                                <a href="conteudo.php?codProduto=<?php echo(33);?>">
                                         <img src="img/livro3.png" class="figure-img img-fluid rounded imagem_livro3" width="180" height="211">
+                                </a>
+                                       
                                         <figcaption class="figure-caption texto_livro3">
                                                 <span class="fw-bolder">Até que nada mais importe</span>
                                                 <br>
@@ -182,7 +191,10 @@
                         <div class="col-md-2 col-xs-6 justify-content-center align-itens-center">
                         <br>
                                 <figure class="figure">
+                                <a href="conteudo.php?codProduto=<?php echo(30);?>">
                                         <img src="img/livro5.png" class="figure-img img-fluid rounded imagem_livro5" width="148" height="203">
+                                </a>
+                                       
                                         <figcaption class="figure-caption texto_livro5">
                                                 <span class="fw-bolder">Jesus todo dia</span>
                                                 <br>
@@ -195,7 +207,10 @@
 
                         <div class="col-md-2 col-xs-6 justify-content-center align-itens-center">
                                 <figure class="figure">
-                                        <img src="img/livro6.png" class="figure-img img-fluid rounded imagem_livro6" width="165" height="241">
+                                <a href="conteudo.php?codProduto=<?php echo(27);?>">
+                                <img src="img/livro6.png" class="figure-img img-fluid rounded imagem_livro6" width="165" height="241">
+                                </a>
+                                       
                                         <figcaption class="figure-caption texto_livro6">
                                                 <span class="fw-bolder">As crônicas de Nárnia
                                                 </span>
