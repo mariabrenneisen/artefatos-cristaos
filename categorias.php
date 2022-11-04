@@ -426,7 +426,10 @@
                                         </figcaption>
                                 </figure>  
                                 <figure class="figure figuras caixa_imagens">
-                                        <img src="img/biblia20.png" class="figure-img img-fluid rounded" width="200" height="350">
+                                <a href="conteudo.php?codProduto=<?php echo(33);?>">
+                                <img src="img/biblia20.png" class="figure-img img-fluid rounded" width="200" height="350"> 
+                                        </a>
+                                        
                                         <figcaption class="figure-caption legenda">
                                                 <span class="span fw-bolder">Até Que Nada Mais Importe</span>
                                                 <br>
