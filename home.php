@@ -56,6 +56,12 @@
                         <img src="img/carrinho.png" width="46" height="46">     
                 </a>
         </li>
+        <li class="nav-item">
+                <a class="nav-link text-light edita" href="Edita_usuario.php">
+                        <img src="img/edita.png" width="30" height="30">     
+                </a>
+        </li>
+</ul>
       
 <!-- 
       <div class="toast-container position-static" >
