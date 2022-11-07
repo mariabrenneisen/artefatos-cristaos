@@ -53,12 +53,13 @@
         </li>
         <li class="nav-item">
                 <a class="nav-link text-light" href="carrinho.html">
-                        <img src="img/carrinho.png" width="46" height="46">     
+                        <img src="img/carrinho.png" width="46" height="46">
+                        Carrinho     
                 </a>
         </li>
-        <li class="nav-item">
-                <a class="nav-link text-light edita" href="Edita_usuario.php">
-                        <img src="img/edita.png" width="30" height="30">     
+        <li class="nav-item edita">
+                <a class="nav-link text-light" href="Edita_usuario.php">
+                        <img src="img/edita_branco.png" width="30" height="30">     
                 </a>
         </li>
 </ul>
