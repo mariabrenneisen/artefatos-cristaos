@@ -49,7 +49,53 @@
               </li>
       
           </ul>
-        
-    
+          <br>
+<div class="container-fluid">
+ <h1>Carrinho:</h1>
+ <br>
+        <table border="1" class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Nome do Produto</th>
+                <th>Quantidade</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php
+            include("listar_carrinho.php");
+
+            //verifica se a variável tem os valores da tabela.
+            if (!empty($lista_carrinho)) {
+                //seleciona linha por linha.
+                foreach ($lista_carrinho as $linha) { ?>
+                    <tr>
+                        <td> <?php echo $linha['codCarrinho']; ?></td>
+                        <td> <?php echo $linha['nomeProduto'] ?></td>
+                        <td> <?php echo $linha['quantidade']; ?></td>
+                        <td> <?php echo $linha['preco']; ?></td>
+                        <td> <img src="img/x.png" onclick="Deletar(<?php echo $linha['codCarrinho']; ?>);"></td>
+                    </tr>
+            <?php }
+            }
+            ?>
+        </tbody>
+    </table>  
+
+    </div>
 </body>
+
+<script>
+        function Deletar(codigo)
+        {
+            var resposta = prompt("Deseja realmente excluir?", "N");
+            if( resposta == "S" || resposta == "s")
+            {
+                window.open("deletar_carrinho.php?codigo=" + codigo,"_self");
+            }
+            
+        }
+
+    </script>
 </html>

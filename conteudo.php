@@ -77,6 +77,7 @@
         if (!empty($lista_livros)) {
             //seleciona linha por linha.
             foreach ($lista_livros as $linha) {
+                $codProduto=$linha["codProduto"];
                 $imagem=$linha["imagem_produto"];
                 $nomeProduto=$linha["nomeProduto"]; 
                 $sinopse=$linha["sinopse"]; 
@@ -104,7 +105,7 @@
                       <br>
                     <div class="row">
                       <div class="col-md-auto">
-                              <button class="btn btn-dark comprar"  type="submit" style="width: 150px">Comprar</button>
+                              <button class="btn btn-dark comprar"  type="submit" style="width: 150px" onclick="addCarrinho();">Comprar</button>
                       </div>
                     </div>
             </div>
@@ -119,7 +120,12 @@
 
         </div>
 
-</div>
-    
+</div>   
 </body>
+<script>
+        function addCarrinho() {
+           window.open("addCarrinho.php?preco=<?php echo($precoProduto);?>&codProduto=<?php echo($codProduto);?>&nomeProduto=<?php echo($nomeProduto);?>","_self");     
+        }
+
+</script>
 </html>
