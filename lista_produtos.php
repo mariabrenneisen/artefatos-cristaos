@@ -57,6 +57,7 @@
                         <td> <?php echo $linha['ano_lancamento']; ?></td>
                         <td> <?php echo $linha['quantidade_estoque']; ?></td>
                         <td> <?php echo '<img height="40px" width="40px" src="'.$linha['imagem_produto']. '">'; ?> </td>
+                        <td> <a href="Edita_produto.php?codigo=<?php echo $linha['codProduto']; ?>" ><img src="img/edita.png"></td> </a>
                         <td> <img src="img/x.png" onclick="Deletar(<?php echo $linha['codProduto']; ?>);"></td>
                     </tr>
             <?php }

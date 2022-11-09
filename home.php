@@ -185,7 +185,10 @@
                         <div class="col-md-2 col-xs-6 justify-content-center align-itens-center">
                                 <br>
                                         <figure class="figure">
-                                                <img src="img/livro4.png" class="figure-img img-fluid rounded imagem_livro4" width="160" height="211">
+                                        <a href="conteudo.php?codProduto=<?php echo(35);?>">
+                                        <img src="img/livro4.png" class="figure-img img-fluid rounded imagem_livro4" width="160" height="211">
+                                </a>
+                                                
                                                 <figcaption class="figure-caption texto_livro4">
                                                         <span class="fw-bolder">Cristianismo puro e simples</span>
                                                         <br>
