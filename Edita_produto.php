@@ -17,7 +17,9 @@
                     </li>
                 </ul>
             </header>
-        
+            <?php
+        session_start();
+        ?>
             <ul class="nav" style="background-color: #3D5AF1">
                 <li class="nav-item">
                   <a class="nav-link active text-light" aria-current="page" href="#">
@@ -51,7 +53,7 @@
             </ul>
         
     
-           
+        
             <div class="row">
                     <div class="row categorias_home">
                             <div class="col-md-1 col-xs-6">
@@ -69,7 +71,11 @@
             
             <hr class="linha">
     
-    
+        <?php
+        include("qual_cliente.php"); 
+        if(!empty($qual_produto)) {
+                foreach ($qual_produto as $produto) {
+        ?>
             <div class="container-fluid">
                     <br>
                     <h1 class="h1 text-light texto_resenha text-align-center" style="background-color: #3D5AF1">Escreva aqui a edição dos livros que você quer na sua loja:</h1>

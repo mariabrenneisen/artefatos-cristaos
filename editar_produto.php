@@ -39,9 +39,6 @@
 
     //executa o comando SQL, ou seja, insere os dados no banco de dados.
     $comando->execute();
-
-    print_r($comando);
-    die();
     
     //Fecha declaração e conexão.
     unset($comando);
