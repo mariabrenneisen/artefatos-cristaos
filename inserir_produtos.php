@@ -20,6 +20,9 @@
     
     //comando SQL.
     $comando = $pdo->prepare("INSERT INTO produto (nomeProduto, precoProduto, editora, faixa_etaria, codigo_livro, autor, ano_lancamento,quantidade_estoque,sinopse,descricao_produto,imagem_produto) VALUES(:nomeProduto,:precoProduto,:editora,:faixa_etaria,:codigo_livro,:autor,:ano_lancamento,:quantidade_estoque,:sinopse,:descricao_produto,:imagem_produto)");
+    
+    
+    
     //insere valores das variaveis no comando sql.
     $comando->bindValue(":nomeProduto",$nomeProduto);                                     
     $comando->bindValue(":precoProduto",$precoProduto); 
@@ -35,7 +38,7 @@
 
     //executa o comando SQL, ou seja, insere os dados no banco de dados.
     $comando->execute();
-
+    
     //Fecha declaração e conexão.
     unset($comando);
     unset($pdo);
