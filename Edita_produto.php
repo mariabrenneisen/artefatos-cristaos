@@ -72,7 +72,7 @@
             <hr class="linha">
     
         <?php
-        include("qual_cliente.php"); 
+        include("qual_produto.php"); 
         if(!empty($qual_produto)) {
                 foreach ($qual_produto as $produto) {
         ?>
@@ -150,6 +150,13 @@
                                 <a class="ir_cadastro" href="lista_produtos.php">Listar Produtos</a>
                         </div>
                     </div>
-            </div>
+
+                    <?php 
+                } }
+                ?>
+    </div>    
+</head>
+<body>
+    
 </body>
 </html>
