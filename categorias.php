@@ -190,7 +190,9 @@
         <div class="row linha_row">
             <div class="imagens_conteudo">
                 <figure class="figure figuras caixa_imagens">
-                        <img src="img/biblia1.png" class="figure-img img-fluid rounded" width="210" height="360">
+                <a href="conteudo.php?codProduto=<?php echo(37);?>">
+                <img src="img/biblia1.png" class="figure-img img-fluid rounded" width="210" height="360">
+                </a>
                         <figcaption class="figure-caption legenda">
                                 <span class="span fw-bolder ">
                                         Bíblia Sagrada Anote a Palavra |
@@ -203,8 +205,11 @@
                                 <span class="fw-bolder fs-5 valor_biblia">R$ 65,90</span>    
                         </figcaption>
                 </figure>  
+
                 <figure class="figure figuras caixa_imagens">
+                <a href="conteudo.php?codProduto=<?php echo(39);?>">
                         <img src="img/biblia2.png" class="figure-img img-fluid rounded" width="200" height="350">
+                </a>
                         <figcaption class="figure-caption legenda">
                                 <span class="span fw-bolder">
                                         Bíblia Sagrada Anote a Palavra |
@@ -426,7 +431,7 @@
                                         </figcaption>
                                 </figure>  
                                 <figure class="figure figuras caixa_imagens">
-                                <a href="conteudo.php?codProduto=<?php echo(33);?>">
+                                <a href="conteudo.php?codProduto=<?php echo(40);?>">
                                 <img src="img/biblia20.png" class="figure-img img-fluid rounded" width="200" height="350"> 
                                         </a>
                                         

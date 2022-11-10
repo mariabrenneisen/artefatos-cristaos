@@ -1,9 +1,8 @@
 <?php
     include("conexao.php");
 
-    session_start(); 
 
-    $codigo = $_SESSION["codProduto"];
+    $codigo = $_GET["codigo"];
         
     $nomeProduto = $_POST["nomeProduto"];
     $precoProduto = $_POST["precoProduto"];
