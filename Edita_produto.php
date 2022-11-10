@@ -17,9 +17,7 @@
                     </li>
                 </ul>
             </header>
-            <?php
-        session_start();
-        ?>
+            
             <ul class="nav" style="background-color: #3D5AF1">
                 <li class="nav-item">
                   <a class="nav-link active text-light" aria-current="page" href="#">
@@ -80,7 +78,7 @@
                     <br>
                     <h1 class="h1 text-light texto_resenha text-align-center" style="background-color: #3D5AF1">Escreva aqui a edição dos livros que você quer na sua loja:</h1>
                     
-                    <form action="editar_produto.php?codigo=<?php echo $_SESSION['codProduto'];?>" method="POST" enctype="multipart/form-data">
+                    <form action="editar_produto.php?codigo=<?php echo $_GET["codigo"];?>" method="POST" enctype="multipart/form-data">
                         <div class="form-group formulario_cadastro_itens">
                             <div class="row">
                                 <div class="col-md-6 col-xs-12">
@@ -141,7 +139,7 @@
                             <br>
                             <div class="row justify-content-center align-itens-center">
                                     <div class="col-md-auto">
-                                            <button class="btn btn-dark botao_resenha"  type="submit" style="width: 150px">Alterar</button>
+                                            <input class="btn btn-dark botao_resenha"  type="submit" style="width: 150px" value="Alterar">
                                     </div>
                             </div>
                     </form>
