@@ -58,8 +58,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
                         <td> <?php echo $linha['codUsuario']; ?></td>
                         <td> <?php echo $linha['nome']; ?></td>
                         <td> <?php echo $linha['email']; ?></td>
-                        <td> <?php echo $linha['tipo_cadastro']; ?></td>
-                        <td> <a href="Edita_usuario.php?codigo=<?php echo $linha['codUsuario']; ?>" ><img src="img/edita.png"></td> </a> 
+                        <td> <?php echo $linha['tipo_cadastro']; ?></td> 
                         <td> <img src="img/x.png" onclick="Deletar(<?php echo $linha['codUsuario']; ?>);"></td>
                     </tr>
             <?php }

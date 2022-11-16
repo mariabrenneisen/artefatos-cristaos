@@ -2,7 +2,7 @@
     include("conexao.php");
 
 
-    $codigo = $_GET["codigo"];
+    $codigo = $_GET["codProduto"];
         
     $nomeProduto = $_POST["nomeProduto"];
     $precoProduto = $_POST["precoProduto"];

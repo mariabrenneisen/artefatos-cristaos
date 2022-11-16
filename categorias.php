@@ -234,11 +234,14 @@
                                 <br>
                                 <span class="span2">→ King James</span>
                                 <br>
-                                <span class="fw-bolder fs-5 valor_biblia">R$ 85,00</span>    
+                                <span class="fw-bolder fs-5 valor_biblia">Indisponível</span>    
                         </figcaption>
-                </figure> 
+                </figure>
                 <figure class="figure figuras caixa_imagens">
+                        <a href="conteudo.php?codProduto=<?php echo(41);?>">
                         <img src="img/biblia4.png" class="figure-img img-fluid rounded" width="200" height="350">
+                </a>
+                        
                         <figcaption class="figure-caption legenda">
                                 <span class="span fw-bolder">
                                         Bíblia Sagrada Anote a Palavra |
@@ -255,7 +258,9 @@
 
             <div class="imagens_conteudo ">   
                 <figure class="figure figuras caixa_imagens">
+                
                         <img src="img/biblia5.png" class="figure-img img-fluid rounded" width="200" height="350">
+                        
                         <figcaption class="figure-caption legenda">
                                 <span class="span fw-bolder">
                                         Bíblia Sagrada Anote a Palavra |
@@ -265,11 +270,14 @@
                                 <br>
                                 <span class="span2">→ João Ferreira de Almeida</span>
                                 <br>
-                                <span class="fw-bolder fs-5 valor_biblia">R$ 65,90</span>    
+                                <span class="fw-bolder fs-5 valor_biblia">Indisponível</span>    
                         </figcaption>
                 </figure>  
                 <figure class="figure figuras caixa_imagens">
+                        <a href="conteudo.php?codProduto=<?php echo(43);?>">
                         <img src="img/biblia6.png" class="figure-img img-fluid rounded" width="200" height="350">
+                </a>
+                       
                         <figcaption class="figure-caption legenda">
                                 <span class="span fw-bolder">
                                         Livro Teologia da Salvação
@@ -281,7 +289,10 @@
                         </figcaption>
                 </figure> 
                 <figure class="figure figuras caixa_imagens">
-                        <img src="img/biblia7.png" class="figure-img img-fluid rounded" width="230" height="400">
+                <a href="conteudo.php?codProduto=<?php echo(44);?>">
+                <img src="img/biblia7.png" class="figure-img img-fluid rounded" width="230" height="400">
+                </a>
+                        
                         <figcaption class="figure-caption legenda">
                                 <span class="span fw-bolder">
                                         Bíblia Sagrada | NVI | Capa Dura
@@ -294,7 +305,10 @@
                         </figcaption>
                 </figure>  
                 <figure class="figure figuras caixa_imagens">
-                        <img src="img/biblia8.png" class="figure-img img-fluid rounded" width="200" height="350">
+                <a href="conteudo.php?codProduto=<?php echo(45);?>">
+                <img src="img/biblia8.png" class="figure-img img-fluid rounded" width="200" height="350">
+                </a>
+                        
                         <figcaption class="figure-caption legenda">
                                 <span class="span fw-bolder">O Peregrino | Edição Comentada 
                                         e Ilustrada</span>
@@ -307,9 +321,10 @@
                 </div> 
             
             <div class="imagens_conteudo">
-                
                 <figure class="figure figuras caixa_imagens">
-                        <img src="img/biblia9.png" class="figure-img img-fluid rounded" width="200" height="350">
+                <a href="conteudo.php?codProduto=<?php echo(46);?>">
+                <img src="img/biblia9.png" class="figure-img img-fluid rounded" width="200" height="350">
+                </a>
                         <figcaption class="figure-caption legenda">
                                 <span class="span fw-bolder">Kit Bíblia NVI Slim + Devocional Eu e Deus
                                         <br> 
@@ -321,7 +336,10 @@
                         </figcaption>
                 </figure> 
                 <figure class="figure figuras caixa_imagens">
-                        <img src="img/biblia10.png" class="figure-img img-fluid rounded" width="200" height="350">
+                <a href="conteudo.php?codProduto=<?php echo(47);?>">
+                <img src="img/biblia10.png" class="figure-img img-fluid rounded" width="200" height="350">
+                </a>
+                        
                         <figcaption class="figure-caption legenda">
                                 <span class="span fw-bolder">Kit Bíblia de Estudo KJA Letra Hipergigante Azul + 
                                         <br>
@@ -333,7 +351,10 @@
                         </figcaption>
                 </figure>  
                 <figure class="figure figuras caixa_imagens">
-                        <img src="img/biblia11.png" class="figure-img img-fluid rounded" width="200" height="350">
+                <a href="conteudo.php?codProduto=<?php echo(48);?>">
+                <img src="img/biblia11.png" class="figure-img img-fluid rounded" width="200" height="350">
+                </a>
+                        
                         <figcaption class="figure-caption legenda">
                                 <span class="span fw-bolder">Gálatas Para a Vida: Lições Práticas Sobre o Evangelho</span>
                                 <br>
@@ -343,7 +364,9 @@
                         </figcaption>
                 </figure>  
                 <figure class="figure figuras caixa_imagens">
-                        <img src="img/biblia12.png" class="figure-img img-fluid rounded" width="200" height="350">
+                <a href="conteudo.php?codProduto=<?php echo(49);?>">
+                <img src="img/biblia12.png" class="figure-img img-fluid rounded" width="200" height="350">
+                </a>       
                         <figcaption class="figure-caption legenda">
                                 <span class="span fw-bolder">Fé em Prática - Jejum para os Dias Atuais</span>
                                 <br>
@@ -357,7 +380,10 @@
         <div class="imagens_conteudo">
                 
                         <figure class="figure figuras caixa_imagens">
-                                <img src="img/biblia13.png" class="figure-img img-fluid rounded" width="200" height="350">
+                        <a href="conteudo.php?codProduto=<?php echo(50);?>">
+                        <img src="img/biblia13.png" class="figure-img img-fluid rounded" width="200" height="350">
+                        </a>
+                                
                                 <figcaption class="figure-caption legenda">
                                         <span class="span fw-bolder">O batismo com o espírito santo livro</span>
                                         <br>
@@ -367,7 +393,10 @@
                                 </figcaption>
                         </figure> 
                         <figure class="figure figuras caixa_imagens">
-                                <img src="img/biblia14.png" class="figure-img img-fluid rounded" width="200" height="350">
+                        <a href="conteudo.php?codProduto=<?php echo(51);?>">
+                        <img src="img/biblia14.png" class="figure-img img-fluid rounded" width="200" height="350">
+                        </a>
+                                
                                 <figcaption class="figure-caption legenda">
                                         <span class="span fw-bolder">Devocional | 3 Minutos de Sabedoria Para Mulheres</span>
                                         <br>
@@ -377,7 +406,10 @@
                                 </figcaption>
                         </figure>  
                         <figure class="figure figuras caixa_imagens">
-                                <img src="img/biblia15.png" class="figure-img img-fluid rounded" width="200" height="350">
+                        <a href="conteudo.php?codProduto=<?php echo(52);?>">
+                        <img src="img/biblia15.png" class="figure-img img-fluid rounded" width="200" height="350">
+                        </a>
+                                
                                 <figcaption class="figure-caption legenda">
                                         <span class="span fw-bolder">Bíblia Sagrada Anote a Palavra</span>
                                         <br>
@@ -387,7 +419,9 @@
                                 </figcaption>
                         </figure>  
                         <figure class="figure figuras caixa_imagens">
-                                <img src="img/biblia16.png" class="figure-img img-fluid rounded" width="200" height="350">
+                        <a href="conteudo.php?codProduto=<?php echo(53);?>">
+                        <img src="img/biblia16.png" class="figure-img img-fluid rounded" width="200" height="350">
+                        </a>
                                 <figcaption class="figure-caption legenda">
                                         <span class="span fw-bolder">Devocional | 3 Minutos de Sabedoria Para Mulheres</span>
                                         <br>
@@ -401,7 +435,10 @@
                 <div class="imagens_conteudo">
                 
                                 <figure class="figure figuras caixa_imagens">
-                                        <img src="img/biblia17.png" class="figure-img img-fluid rounded" width="200" height="350">
+                                <a href="conteudo.php?codProduto=<?php echo(54);?>">
+                                <img src="img/biblia17.png" class="figure-img img-fluid rounded" width="200" height="350">
+                                </a>
+                                        
                                         <figcaption class="figure-caption legenda">
                                                 <span class="span fw-bolder">Bíblia Sagrada Anote a Palavra </span>
                                                 <br>
@@ -411,7 +448,10 @@
                                         </figcaption>
                                 </figure> 
                                 <figure class="figure figuras caixa_imagens">
-                                        <img src="img/biblia18.png" class="figure-img img-fluid rounded" width="200" height="350">
+                                <a href="conteudo.php?codProduto=<?php echo(55);?>">
+                                <img src="img/biblia18.png" class="figure-img img-fluid rounded" width="200" height="350">
+                                </a>
+                                        
                                         <figcaption class="figure-caption legenda">
                                                 <span class="span fw-bolder">O Poder da Oração e a Oração de Poder</span>
                                                 <br>
@@ -427,7 +467,7 @@
                                                 <br>
                                                 <span class="span2">→ Entendendo Os Passos de Jesus</span>
                                                 <br>
-                                                <span class="fw-bolder fs-5 valor_biblia">R$ 29,80</span>    
+                                                <span class="fw-bolder fs-5 valor_biblia">Indisponível</span>    
                                         </figcaption>
                                 </figure>  
                                 <figure class="figure figuras caixa_imagens">
