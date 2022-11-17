@@ -8,6 +8,6 @@
     $comando->bindValue(":codigo",$codigo); 
     $comando->execute();
 
-    header("Location: lista_resenha.php");
+    header("Location: lista_resenhas.php");
 ?>
 

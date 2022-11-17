@@ -48,6 +48,9 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
                             <label><?php echo $linha['autor']; ?></label>
                             <br><br>
                             <label><?php echo $linha['resenha']; ?></label>
+                            <br><br>
+                            <img src="img/x.png" onclick="Deletar(<?php echo $linha['codResenha']; ?>);"> 
+                            <a href="Edita_Resenha.php?codigo=<?php echo $linha['codResenha']; ?>" ><img src="img/edita.png"> </a>
                     </div>
                 </div>
             <?php }
@@ -58,10 +61,16 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
 
     </div> 
 
-
-
-
-   
-
 </body>
+<script>
+        function Deletar(codigo)
+        {
+            var resposta = prompt("Deseja realmente excluir?", "N");
+            if( resposta == "S" || resposta == "s")
+            {
+                window.open("deletar_resenhas.php?codigo=" + codigo,"_self");
+            }
+            
+        }
+    </script>
 </html>
