@@ -37,20 +37,18 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
             include("listar_resenhas.php");
 
             //verifica se a variável tem os valores da tabela.
-            if (!empty($lista_usuarios)) {
+            if (!empty($lista_resenha)) {
                 //seleciona linha por linha.
-                foreach ($lista_usuarios as $linha) { ?>
+                foreach ($lista_resenha as $resenha) { ?>
                 <div class="row lista_resenhas justify-content-center align-itens-center">
                     <div class="col-md-4 col-xs-15 caixa_lista_resenhas">
-                            <label class="nome_pessoa_resenha"><?php echo $linha['nome']; ?></label>
+                            <label class="nome_pessoa_resenha"><?php echo $resenha['nome']; ?></label>
                             <br>
-                            <h6><?php echo $linha['tituloLivro']; ?></h6>
-                            <label><?php echo $linha['autor']; ?></label>
+                            <h6><?php echo $resenha['tituloLivro']; ?></h6>
+                            <label><?php echo $resenha['autor']; ?></label>
                             <br><br>
-                            <label><?php echo $linha['resenha']; ?></label>
-                            <br><br>
-                            <img src="img/x.png" onclick="Deletar(<?php echo $linha['codResenha']; ?>);"> 
-                            <a href="Edita_Resenha.php?codigo=<?php echo $linha['codResenha']; ?>" ><img src="img/edita.png"> </a>
+                            <label><?php echo $resenha['resenha']; ?></label>
+                            
                     </div>
                 </div>
             <?php }
@@ -59,18 +57,6 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
 
     
 
-    </div> 
-
+    </div>
 </body>
-<script>
-        function Deletar(codigo)
-        {
-            var resposta = prompt("Deseja realmente excluir?", "N");
-            if( resposta == "S" || resposta == "s")
-            {
-                window.open("deletar_resenhas.php?codigo=" + codigo,"_self");
-            }
-            
-        }
-    </script>
 </html>

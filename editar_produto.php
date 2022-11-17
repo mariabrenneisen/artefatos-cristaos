@@ -2,7 +2,7 @@
     include("conexao.php");
 
 
-    $codigo = $_GET["codProduto"];
+    $codigo = $_GET["codigo"];
         
     $nomeProduto = $_POST["nomeProduto"];
     $precoProduto = $_POST["precoProduto"];
@@ -20,10 +20,9 @@
     $conteudo = file_get_contents($imagem['tmp_name']);
     $base64 = "data:".$extensao.";base64,".base64_encode($conteudo);
     
-    //comando SQL.
+
     $comando = $pdo->prepare("UPDATE produto SET nomeProduto = :nomeProduto, precoProduto = :precoProduto, editora = :editora, faixa_etaria = :faixa_etaria, codigo_livro = :codigo_livro, autor = :autor, ano_lancamento = :ano_lancamento, quantidade_estoque = :quantidade_estoque, sinopse = :sinopse, descricao_produto = :descricao_produto, imagem_produto = :imagem_produto WHERE codProduto = :codigo");
     
-    //insere valores das variaveis no comando sql.
     $comando->bindValue(":nomeProduto",$nomeProduto);                                     
     $comando->bindValue(":precoProduto",$precoProduto); 
     $comando->bindValue(":editora",$editora);                                     
@@ -36,14 +35,13 @@
     $comando->bindValue(":descricao_produto",$descricao_produto);                                 
     $comando->bindValue(":imagem_produto", $base64);
 
-    //executa o comando SQL, ou seja, insere os dados no banco de dados.
+    $comando->bindValue(":codigo", $codigo);
+
     $comando->execute();
     
-    //Fecha declaração e conexão.
     unset($comando);
     unset($pdo);
 
-    //redireciona para a pagina informada.
     header("Location: lista_produtos.php");
 
     

@@ -547,7 +547,7 @@
                                                 <br>
                                                 <span class="span2">→ Versão NAA</span>
                                                 <br>
-                                                <span class="fw-bolder fs-5 valor_biblia">R$ 143,99</span>    
+                                                <span class="fw-bolder fs-5 valor_biblia">Indisponível</span>    
                                         </figcaption>
                                 </figure> 
                                 <figure class="figure figuras caixa_imagens">

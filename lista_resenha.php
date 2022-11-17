@@ -41,11 +41,12 @@
                 foreach ($lista_resenha as $resenha) { ?>
                     <tr>
                         <td> <?php echo $resenha['codResenha']; ?></td>
-                        <td> <?php echo $resenha['nomeProduto']; ?></td>
+                        <td> <?php echo $resenha['autor']; ?></td>
+                        <td> <?php echo $resenha['tituloLivro']; ?></td>
+                        <td> <?php echo $resenha['nome']; ?></td>
                         <td> <?php echo $resenha['resenha']; ?></td>
-                        <td> <?php echo '<img height="40px" width="40px" src="'.$resenha['imagem_produto']. '">'; ?> </td>
-                        <td> 
-                        <td> <img src="img/x.png" onclick="Deletar(<?php echo $resenha['codProduto']; ?>);"></td>
+                        <td> <a href="Edita_resenha.php?codigo=<?php echo $resenha['codResenha']; ?>" ><img src="img/edita.png"></td> </a>
+                        <td> <img src="img/x.png" onclick="Deletar(<?php echo $resenha['codResenha']; ?>);"></td>
                     </tr>
             <?php }
             }

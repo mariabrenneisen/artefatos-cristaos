@@ -23,7 +23,7 @@
 <br>
     <div class="container-fluid">
         
-    <h3>Listar Usuários:</h3>
+    <h3>Editar Produtos:</h3>
     <br>
     <table border="1" class="table table-striped table-hover">
         <thead>

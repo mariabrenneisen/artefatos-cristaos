@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="estilo.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-    <title>Cadastro de Livros</title>
+    <title>Editar Produto</title>
 
 <body>
         <header class="header mx-auto text-light" style="background-color: #0E153A">
@@ -123,11 +123,11 @@
                                 <div class="row">
                                         <div class="col-md-6 col-xs-12">
                                                 <label>Sinopse:</label>
-                                                <textarea class="form-control" id="textoresenha" rows="10" name="sinopse" value="<?php echo $produto['sinopse']?>"></textarea>
+                                                <textarea class="form-control" id="textoresenha" rows="10" name="sinopse"><?php echo $produto['sinopse']?></textarea>
                                         </div>
                                         <div class="col-md-6 col-xs-12">
                                                 <label>Detalhe do Produto:</label>
-                                                <textarea class="form-control" id="textoresenha" rows="10" name="descricao_produto" value="<?php echo $produto['descricao_produto']?>"></textarea>
+                                                <textarea class="form-control" id="textoresenha" rows="10" name="descricao_produto"><?php echo $produto['descricao_produto']?></textarea>
                                         </div>
                                 </div>
                                 <br>
